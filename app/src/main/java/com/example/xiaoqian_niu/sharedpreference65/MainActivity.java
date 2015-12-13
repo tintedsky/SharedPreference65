@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("password", password.getText().toString());
         editor.apply();
 
-        Toast.makeText(this, "Saved_chaged", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Saved_changed", Toast.LENGTH_LONG).show();
     }
 
     public void btShowClicked(View view){
